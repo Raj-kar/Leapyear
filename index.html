@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Check for LeapYear or not</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="dialog" id="login-form" class="login-form" autocomplete="off">
+        <div>
+            <label class="label-year">
+                <input type="text" class="text" placeholder="Year" tabindex="2" required id="year"/>
+                <span style="font-weight: 600; font-size: 1rem;" class="required">Enter a Year</span>
+            </label>
+        </div>
+        <input onclick="checkLeapYear()" type="submit" value="Check YEAR" />
+        <div class="email">
+            <span id="output" style="font-weight: 600; font-size: 1rem;"></span>
+        </div>
+        
+        <figure aria-hidden="true">
+            <div class="person-body"></div>
+            <div class="neck skin"></div>
+            <div class="head skin">
+                <div class="eyes"></div>
+                <div class="mouth"></div>
+            </div>
+            <div class="hair"></div>
+            <div class="ears"></div>
+            <div class="shirt-1"></div>
+            <div class="shirt-2"></div>
+        </figure>
+    </form>
+    <script src="./leapyear.js"></script>
+</body>
+
+</html>
